@@ -17,7 +17,7 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: train-schedule-deployment
-  label:
+  labels:
     app: train-schedule
 spec:
   replicas: 3
